@@ -126,7 +126,7 @@ video.addEventListener("play", () => {
     om["fearful"] = 0;
     om["disgusted"] = 0;
     om["surprised"] = 0;
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 20; i++) {
       try {
         const detections = await faceapi
           .detectSingleFace(video, new faceapi.TinyFaceDetectorOptions())
